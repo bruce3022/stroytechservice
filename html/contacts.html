@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты - СтройТехСервис</title>
+    <link href="../css/style.css" rel="stylesheet"/>
+    <link href="../css/contacts.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script async src="../script/script.js"></script>
+<!--    <script src="https://api-maps.yandex.ru/2.1/?apikey=31ae34ef-1869-4cf5-90fe-5bd32b3d0994&lang=ru_RU"-->
+<!--            type="text/javascript"></script>-->
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">   <!--общий контейнер-->
+            <div class="header__container"> <!--контейнер для позиционирования-->
+                <div class="header__mobile">
+                    <div class="header__mobile__burger-icon">
+                        <div class="burger-icon">
+                            <span></span>
+                        </div>
+                    </div>
+                    <a class="header__mobile__logo" target="_self" href="index.html">
+                        <img src="../images/logo.png" alt="Логотип">
+                    </a>
+                    <a class="header__mobile__phone" href="tel:+79991565689">
+                        <svg width="20" height="20" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 15.9201V18.9201C21.0011 19.1986 20.9441 19.4743 20.8325 19.7294C20.7209 19.9846 20.5573 20.2137 20.3521 20.402C20.1469 20.5902 19.9046 20.7336 19.6408 20.8228C19.3769 20.912 19.0974 20.9452 18.82 20.9201C15.7428 20.5857 12.787 19.5342 10.19 17.8501C7.77383 16.3148 5.72534 14.2663 4.19 11.8501C2.49998 9.2413 1.44824 6.27109 1.12 3.1801C1.09501 2.90356 1.12788 2.62486 1.2165 2.36172C1.30513 2.09859 1.44757 1.85679 1.63477 1.65172C1.82196 1.44665 2.04981 1.28281 2.30379 1.17062C2.55778 1.05843 2.83234 1.00036 3.11 1.0001H6.11C6.59531 0.995321 7.06579 1.16718 7.43376 1.48363C7.80173 1.80008 8.04208 2.23954 8.11 2.7201C8.23662 3.68016 8.47145 4.62282 8.81 5.5301C8.94455 5.88802 8.97366 6.27701 8.89391 6.65098C8.81415 7.02494 8.62886 7.36821 8.36 7.6401L7.09 8.9101C8.51356 11.4136 10.5865 13.4865 13.09 14.9101L14.36 13.6401C14.6319 13.3712 14.9752 13.1859 15.3491 13.1062C15.7231 13.0264 16.1121 13.0556 16.47 13.1901C17.3773 13.5286 18.3199 13.7635 19.28 13.8901C19.7658 13.9586 20.2094 14.2033 20.5265 14.5776C20.8437 14.9519 21.0122 15.4297 21 15.9201Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__main">
+                    <a class="header__main__logo" target="_self" href="index.html">
+                        <img src="../images/logo.png" alt="Логотип">
+                    </a>
+                    <nav class="header__main__menu">
+                        <a href="" class="header__main__menu__link">О компании</a>
+                        <a href="services.html" class="header__main__menu__link">Услуги</a>
+                        <a href="" class="header__main__menu__link">Объекты</a>
+                        <a href="contacts.html" class="header__main__menu__link">Контакты</a>
+                    </nav>
+                    <a class="header__main__phone" href="tel:+79991565689">
+                        <svg width="20" height="20" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 15.9201V18.9201C21.0011 19.1986 20.9441 19.4743 20.8325 19.7294C20.7209 19.9846 20.5573 20.2137 20.3521 20.402C20.1468
+                                20.5902 19.9046 20.7336 19.6407 20.8228C19.3769 20.912 19.0974 20.9452 18.82 20.9201C15.7428 20.5857 12.787 19.5342 10.19 17.8501C7.77382
+                                16.3148 5.72533 14.2663 4.18999 11.8501C2.49997 9.2413 1.44824 6.27109 1.11999 3.1801C1.095 2.90356 1.12787 2.62486 1.21649 2.36172C1.30512
+                                 2.09859 1.44756 1.85679 1.63476 1.65172C1.82196 1.44665 2.0498 1.28281 2.30379 1.17062C2.55777 1.05843 2.83233 1.00036 3.10999 1.0001H6.10999C6.5953
+                                  0.995321 7.06579 1.16718 7.43376 1.48363C7.80173 1.80008 8.04207 2.23954 8.10999 2.7201C8.23662 3.68016 8.47144 4.62282 8.80999 5.5301C8.94454 5.88802
+                                  8.97366 6.27701 8.8939 6.65098C8.81415 7.02494 8.62886 7.36821 8.35999 7.6401L7.08999 8.9101C8.51355 11.4136 10.5864 13.4865 13.09 14.9101L14.36
+                                  13.6401C14.6319 13.3712 14.9751 13.1859 15.3491 13.1062C15.7231 13.0264 16.1121 13.0556 16.47 13.1901C17.3773 13.5286 18.3199 13.7635 19.28
+                                  13.8901C19.7658 13.9586 20.2094 14.2033 20.5265 14.5776C20.8437 14.9519 21.0122 15.4297 21 15.9201Z"
+                                  stroke="#FFCA96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> alt="Иконка телефона"
+                        </svg>
+                        <span>+7(999) 156-56-89</span>
+                    </a>
+                </div>
+                <div class="mobile__burger-menu">
+                    <div class="burger-menu">
+                        <a href="" class="burger-menu__link">О компании</a>
+                        <a href="services.html" class="burger-menu__link">Услуги</a>
+                        <a href="" class="burger-menu__link">Объекты</a>
+                        <a href="contacts.html" class="burger-menu__link">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="contacts-section contacts-page">
+                <div class="contacts-page__container">
+                    <h2 class="contacts-page__title">Контакты</h2>
+                    <div class="contacts-page__content">
+                        <div class="contacts-page__details">
+                            <div class="details__work details">
+                                <p>Режим работы</p>
+                                <div class="details__item">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.9997 25.6663C20.443 25.6663 25.6663 20.443 25.6663 13.9997C25.6663 7.55635 20.443 2.33301 13.9997 2.33301C7.55635 2.33301 2.33301 7.55635 2.33301 13.9997C2.33301 20.443 7.55635 25.6663 13.9997 25.6663Z"
+                                              stroke="#FFCA96" stroke-width="2" stroke-linecap="round"
+                                              stroke-linejoin="round"></path>
+                                        <path d="M14 7V14L18.6667 16.3333" stroke="#FFCA96" stroke-width="2"
+                                              stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                    <p>09:00-17:00</p>
+                                </div>
+                            </div>
+                            <div class="details__address details">
+                                <p>Адрес</p>
+                                <div class="details__item">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.5 10.4997L14 2.33301L24.5 10.4997V23.333C24.5 23.9518 24.2542 24.5453 23.8166 24.9829C23.379 25.4205 22.7855 25.6663 22.1667 25.6663H5.83333C5.21449 25.6663 4.621 25.4205 4.18342 24.9829C3.74583 24.5453 3.5 23.9518 3.5 23.333V10.4997Z"
+                                              stroke="#FFCA96" stroke-width="2" stroke-linecap="round"
+                                              stroke-linejoin="round"/>
+                                        <path d="M10.5 25.6667V14H17.5V25.6667" stroke="#FFCA96" stroke-width="2"
+                                              stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <p>г. Ижевск, ул. Шумайлова,<br> д. 20, оф. 12</p>
+                                </div>
+                            </div>
+                            <div class="details__phone details">
+                                <p>Контакты</p>
+                                <div class="details__item details__item_phone">
+                                    <a class="item_phone__number" href="tel:+73412424492">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M25.6667 19.7398V23.2398C25.668 23.5647 25.6014 23.8863 25.4713 24.184C25.3411 24.4817 25.1502 24.749 24.9108 24.9686C24.6713 25.1883 24.3887 25.3555 24.0809 25.4596C23.7731 25.5637 23.4469 25.6024 23.1233 25.5731C19.5333 25.183 16.0848 23.9563 13.055 21.9915C10.2361 20.2002 7.84623 17.8103 6.055 14.9915C4.08331 11.9479 2.85629 8.48261 2.47334 4.87645C2.44418 4.55383 2.48252 4.22867 2.58592 3.92168C2.68932 3.61469 2.8555 3.33259 3.0739 3.09335C3.29229 2.8541 3.55811 2.66295 3.85443 2.53206C4.15074 2.40118 4.47107 2.33343 4.795 2.33312H8.295C8.86119 2.32755 9.41009 2.52805 9.83939 2.89724C10.2687 3.26644 10.5491 3.77914 10.6283 4.33979C10.7761 5.45986 11.05 6.55964 11.445 7.61812C11.602 8.0357 11.6359 8.48952 11.5429 8.92581C11.4498 9.36211 11.2337 9.76258 10.92 10.0798L9.43834 11.5615C11.0992 14.4823 13.5175 16.9006 16.4383 18.5615L17.92 17.0798C18.2372 16.7661 18.6377 16.5499 19.074 16.4569C19.5103 16.3638 19.9641 16.3978 20.3817 16.5548C21.4402 16.9498 22.5399 17.2237 23.66 17.3715C24.2267 17.4514 24.7443 17.7369 25.1143 18.1735C25.4843 18.6102 25.6809 19.1676 25.6667 19.7398Z"
+                                                  stroke="#FFCA96" stroke-width="2" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                        <p>8 (3412) 42‑44‑92</p>
+                                    </a>
+                                    <a class="item_phone__number" href="tel:+79199063323">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M25.6667 19.7398V23.2398C25.668 23.5647 25.6014 23.8863 25.4713 24.184C25.3411 24.4817 25.1502 24.749 24.9108 24.9686C24.6713 25.1883 24.3887 25.3555 24.0809 25.4596C23.7731 25.5637 23.4469 25.6024 23.1233 25.5731C19.5333 25.183 16.0848 23.9563 13.055 21.9915C10.2361 20.2002 7.84623 17.8103 6.055 14.9915C4.08331 11.9479 2.85629 8.48261 2.47334 4.87645C2.44418 4.55383 2.48252 4.22867 2.58592 3.92168C2.68932 3.61469 2.8555 3.33259 3.0739 3.09335C3.29229 2.8541 3.55811 2.66295 3.85443 2.53206C4.15074 2.40118 4.47107 2.33343 4.795 2.33312H8.295C8.86119 2.32755 9.41009 2.52805 9.83939 2.89724C10.2687 3.26644 10.5491 3.77914 10.6283 4.33979C10.7761 5.45986 11.05 6.55964 11.445 7.61812C11.602 8.0357 11.6359 8.48952 11.5429 8.92581C11.4498 9.36211 11.2337 9.76258 10.92 10.0798L9.43834 11.5615C11.0992 14.4823 13.5175 16.9006 16.4383 18.5615L17.92 17.0798C18.2372 16.7661 18.6377 16.5499 19.074 16.4569C19.5103 16.3638 19.9641 16.3978 20.3817 16.5548C21.4402 16.9498 22.5399 17.2237 23.66 17.3715C24.2267 17.4514 24.7443 17.7369 25.1143 18.1735C25.4843 18.6102 25.6809 19.1676 25.6667 19.7398Z"
+                                                  stroke="#FFCA96" stroke-width="2" stroke-linecap="round"
+                                                  stroke-linejoin="round"/>
+                                        </svg>
+                                        <p>+7(919) 906-33-23</p>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="details__director details">
+                                <p>Директор ООО «СтройТехСервис»:</p>
+                                <div class="details__item">
+                                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="1" y="8" width="26" height="19" rx="2" stroke="#FFCA96"
+                                              stroke-width="2"/>
+                                        <path d="M20 5.7998V8.39981H22V5.7998H20ZM8 8.39981V5.7998H6V8.39981H8ZM10 3.7998H14V1.7998H10V3.7998ZM14 3.7998H18V1.7998H14V3.7998ZM22 5.7998C22 3.59067 20.2091 1.7998 18 1.7998V3.7998C19.1046 3.7998 20 4.69524 20 5.7998H22ZM8 5.7998C8 4.69523 8.89543 3.7998 10 3.7998V1.7998C7.79086 1.7998 6 3.59066 6 5.7998H8Z"
+                                              fill="#FFCA96"/>
+                                        <path d="M0.499023 15.7998L27.499 15.7998" stroke="#FFCA96" stroke-width="2"/>
+                                        <ellipse cx="14.0002" cy="16.1" rx="2.8" ry="2.1" fill="#FFCA96"/>
+                                    </svg>
+                                    <p>Цыркин Дмитрий Феликсович</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="map" class="contacts-page__map">
+                            <script type="text/javascript" charset="utf-8" async
+                                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A36175a5cf2913aeb0496183ce40587788cb0808f866e48a1792f52c19c31ff91&amp;width=618&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <nav class="footer__menu">
+                    <a href="" class="footer__menu__link">О нас</a>
+                    <a href="services.html" class="footer__menu__link">Услуги</a>
+                    <a href="" class="footer__menu__link">Объекты</a>
+                    <a href="contacts.html" class="footer__menu__link">Контакты</a>
+                </nav>
+                <div class="footer__copyright">
+                    <span>© «СтройТехСервис» 2022 г.</span>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__address">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="#FFCA96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M9 22V12H15V22" stroke="#FFCA96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <p class="footer__address__text">г. Ижевск, ул. Шумайлова,<br> д. 20, оф. 12</p>
+                    </div>
+                    <div class="footer__phone">
+                        <a href="tel:+79991565689">
+                            <svg class="footer__phone__image" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 15.9201V18.9201C21.0011 19.1986 20.9441 19.4743 20.8325 19.7294C20.7209 19.9846 20.5573 20.2137 20.3521 20.402C20.1468
+                                20.5902 19.9046 20.7336 19.6407 20.8228C19.3769 20.912 19.0974 20.9452 18.82 20.9201C15.7428 20.5857 12.787 19.5342 10.19 17.8501C7.77382
+                                16.3148 5.72533 14.2663 4.18999 11.8501C2.49997 9.2413 1.44824 6.27109 1.11999 3.1801C1.095 2.90356 1.12787 2.62486 1.21649 2.36172C1.30512
+                                 2.09859 1.44756 1.85679 1.63476 1.65172C1.82196 1.44665 2.0498 1.28281 2.30379 1.17062C2.55777 1.05843 2.83233 1.00036 3.10999 1.0001H6.10999C6.5953
+                                  0.995321 7.06579 1.16718 7.43376 1.48363C7.80173 1.80008 8.04207 2.23954 8.10999 2.7201C8.23662 3.68016 8.47144 4.62282 8.80999 5.5301C8.94454 5.88802
+                                  8.97366 6.27701 8.8939 6.65098C8.81415 7.02494 8.62886 7.36821 8.35999 7.6401L7.08999 8.9101C8.51355 11.4136 10.5864 13.4865 13.09 14.9101L14.36
+                                  13.6401C14.6319 13.3712 14.9751 13.1859 15.3491 13.1062C15.7231 13.0264 16.1121 13.0556 16.47 13.1901C17.3773 13.5286 18.3199 13.7635 19.28
+                                  13.8901C19.7658 13.9586 20.2094 14.2033 20.5265 14.5776C20.8437 14.9519 21.0122 15.4297 21 15.9201Z"
+                                      stroke="#FFCA96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> alt="Иконка телефона"
+                            </svg>
+                            <span>+7(999) 156-56-89</span>
+                        </a>
+                    </div>
+                    <a class="footer__privacy-link" target="_blank" href="">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
