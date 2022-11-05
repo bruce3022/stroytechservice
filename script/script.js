@@ -21,12 +21,16 @@ if (document.querySelector('.swiper')) {
             prevEl: '.swiper-button-next',
         },
 
+        spaceBetween: 30,
+
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
+            type: 'bullets',
+            /*type: 'progressbar',*/
         },
-
+        
         //Активный слайдер по центру
         centeredSlides: true,
 
@@ -128,11 +132,12 @@ const button = document.querySelector('.main-button');
 const modal = document.querySelector('.popup');
 const closePopup = document.querySelector('.close-popup');
 const itemBtn = document.querySelector('.details-page__btn');
+const popBody = document.querySelector('.popup__body');
+const popup = document.querySelector('.popup__content');
 /*const modalClose = document.querySelector('.popup-open');*/
 
 //открытие попап окна
 if (button) {
-    const modal = document.querySelector('.popup');
     button.addEventListener("click", function () {
         modal.classList.add('popup-open');
         document.body.classList.add('block');
@@ -141,10 +146,21 @@ if (button) {
 
 //открытие попап окна в серв-айтемс
 if (itemBtn) {
-    const modal = document.querySelector('.popup');
     itemBtn.addEventListener("click", function () {
         modal.classList.add('popup-open');
         document.body.classList.add('block');
+    });
+}
+
+if (popBody) {
+    popBody.addEventListener('click', function (e) {
+        console.log("событие", e);
+        const close = popup.contains(e.target);
+        if (!close) {
+            console.log("закрытие", close);
+            modal.classList.remove('popup-open');
+            document.body.classList.remove('block');
+        }
     });
 }
 
@@ -169,18 +185,6 @@ window.addEventListener('keydown', function (e) {
     }
 });
 
-//закрытие из любого места ??
-window.addEventListener('click', function (e) {
-    /*console.log('jhgjfhdg');*/
-    if (e.target === modal) {
-        if (modal.classList.contains('popup-open')); {
-            /*modal.style.display = "none";*/
-            modal.classList.remove('popup-open');
-            document.body.classList.remove('block');
-        }
-    }
-});
-
 //----------------Показать скрыть большой текст страницы---------------------------------
 
 const basicClose = document.querySelector(".basic-text__close");
@@ -193,14 +197,18 @@ if (basicClose) {
     });
 }
 
-//--------------------------------------------------------
+//---------------Показать еще секции с картинками на странице Объекты----------------
 
+const companyObject = document.querySelector('.objects-company__object');
+const objectShowBtn = document.querySelector('.object__btn__show');
 
+if (objectShowBtn) {
+    objectShowBtn.addEventListener('click', function () {
+        companyObject.innerHTML += companyObject;
+    })
+}
 
-
-
-
-
+/*--------------------------------------------------------------------------*/
 
 
 

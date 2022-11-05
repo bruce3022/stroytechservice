@@ -1,0 +1,355 @@
+.header {
+    margin-bottom: 16px;
+}
+
+.about-company {
+    margin-bottom: 88px;
+}
+
+.about-company__container {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    /*position: relative;*/
+}
+
+.about-company__circle {
+    position: absolute;
+    z-index: -1;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    max-width: 710px;
+    width: 100%;
+    height: 710px;
+}
+
+.about-company__content h2 {
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 16px;
+}
+
+.about-company__content p {
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 32px;
+    width: 562px;
+    /*max-height: 234px;*/
+}
+
+.about-company__content a {
+    display: flex;
+    width: fit-content;
+    color: #FF7F00;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding: 16px 32px;
+    border: 1px solid #FF7F00;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.about-company__img {
+    /*max-width: 785px;
+    max-height: 552px;*/
+    z-index: -2;
+}
+
+.about-company__img img {
+    max-width: 100%;
+    /*max-height: 100%;*/
+    /*object-fit: cover;*/
+    border-radius: 32px;
+}
+
+@media (max-width: 1023px)  {
+    .about-company__circle {
+        max-width: 650px;
+        width: 100%;
+        height: 650px;
+    }
+}
+
+@media (max-width: 950px) {
+    .about-company {
+        margin-bottom: 70px;
+    }
+
+    .about-company__container {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .about-company__content {
+        margin: 0 auto;
+    }
+
+    .about-company__circle {
+        display: none;
+    }
+
+    .about-company__img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-company {
+        margin-bottom: 40px;
+    }
+
+    .about-company__container {
+        text-align: start;
+    }
+
+    .about-company__content {
+        width: 100%;
+    }
+
+    .about-company__content h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .about-company__content p {
+        font-size: 16px;
+        max-width: 100%;
+        /*max-height: 100%;*/
+        /*max-height: 234px;*/
+    }
+}
+
+/*----------------СЕКЦИЯ С ПРЕИМУЩЕСТВАМИ------------------*/
+.benefits-company {
+    margin-bottom: 73px;
+}
+
+.benefits__title {
+    text-align: center;
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+
+.benefits__advantages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    margin-right: 32px;
+    margin-left: 32px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.advantages__item {
+    max-width: 294px;
+    height: auto;
+}
+
+.flex-contain {
+    display: flex;
+    justify-content: center;
+}
+
+.advantages__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #FF7F00;
+    justify-items: center;
+}
+
+.advantages__item h4 {
+    padding-top: 16px;
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+
+.advantages__item p {
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    /*max-height: 100%;*/
+}
+
+@media (max-width: 1023px) {
+    .benefits__advantages {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px)  {
+    .benefits__advantages {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 40px auto;
+    }
+
+    .advantages__item {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/*-----------------------серые блоки----------------*/
+
+.benefits__achievement {
+    margin-left: 115px;
+    margin-right: 115px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 78px;
+}
+
+.achievement__item {
+    /*width: 325px;*/
+    background-color: #F6F6F6;
+    border-radius: 24px;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+}
+
+.achievement__item h4 {
+    margin-top: 32px;
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.achievement__item p {
+    margin-top: 4px;
+    margin-bottom: 40px;
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+@media (max-width: 1023px)  {
+    .benefits__achievement {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .benefits__achievement {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+/*-----------------КАРТА ВНИЗУ СТРАНИЦЫ---------------------*/
+
+.territory-company {
+    margin-bottom: 106px;
+}
+
+.territory-company h3 {
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.territory__address {
+    display: flex;
+    align-items: center;
+    margin: 0 95px;
+}
+
+.territory__zone {
+    margin-right: 88px;
+}
+
+.territory__zone__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.territory__zone__item p {
+    margin-left: 8px;
+    color: #333333;
+    font-family: IBMPlexSans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.territory__map {
+    position: relative;
+}
+
+.territory__map img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.svg-one {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+.svg-two {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+
+}
+
+@media (max-width: 767px) {
+    .territory__address {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .territory__zone {
+        margin-right: 0;
+    }
+}
+
+/*---------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
