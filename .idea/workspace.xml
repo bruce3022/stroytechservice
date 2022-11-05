@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ea0d6c42-4558-4993-ad35-f91d61cba00c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2DV0YvuelYtfcWacHT5Sy7oVWzL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spacegame" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea0d6c42-4558-4993-ad35-f91d61cba00c" name="Default Changelist" comment="" />
+      <created>1660768995615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660768995615</updated>
+      <workItem from="1660768996934" duration="3970000" />
+      <workItem from="1660831873530" duration="12839000" />
+      <workItem from="1660907794829" duration="1506000" />
+      <workItem from="1660914624226" duration="596000" />
+      <workItem from="1660982867003" duration="6624000" />
+      <workItem from="1660989583855" duration="4518000" />
+      <workItem from="1661150037802" duration="663000" />
+      <workItem from="1662036433680" duration="105000" />
+      <workItem from="1662036627132" duration="216000" />
+      <workItem from="1662042150759" duration="85000" />
+      <workItem from="1662044702715" duration="27000" />
+      <workItem from="1662044741936" duration="6000" />
+      <workItem from="1662305489636" duration="610000" />
+      <workItem from="1662306960535" duration="22000" />
+      <workItem from="1662307020459" duration="38000" />
+      <workItem from="1662307080025" duration="26000" />
+      <workItem from="1662646706439" duration="190000" />
+      <workItem from="1662654046531" duration="2067000" />
+      <workItem from="1662656514086" duration="741000" />
+      <workItem from="1662793550086" duration="2351000" />
+      <workItem from="1662799737216" duration="1852000" />
+      <workItem from="1662989945426" duration="3434000" />
+      <workItem from="1663174350076" duration="758000" />
+      <workItem from="1663341064313" duration="23000" />
+      <workItem from="1663341223137" duration="62000" />
+      <workItem from="1663341299827" duration="25000" />
+      <workItem from="1663341367617" duration="78000" />
+      <workItem from="1663341727493" duration="5000" />
+      <workItem from="1667665371976" duration="215000" />
+    </task>
+    <task id="LOCAL-00001" summary="общий">
+      <created>1667665400356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667665400356</updated>
+    </task>
+    <task id="LOCAL-00002" summary="общий мастер">
+      <created>1667665445628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667665445628</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="общий" />
+    <MESSAGE value="общий мастер" />
+    <option name="LAST_COMMIT_MESSAGE" value="общий мастер" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="383" key="#Notifications" timestamp="1660982977912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1660982977912" />
+    <state x="583" y="88" key="CommitChangelistDialog2" timestamp="1667665444908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1667665444908" />
+    <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1663341283816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1663341283816" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1660987575423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1660987575423" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1667665455324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1667665455324" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1660984450589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660984450589" />
+  </component>
+</project>
